@@ -6,6 +6,7 @@
 /target
 /classes
 /checkouts
+/resources/*.fortune
 pom.xml
 pom.xml.asc
 /.lein-*
