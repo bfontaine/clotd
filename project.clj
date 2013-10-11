@@ -1,7 +1,8 @@
-(defproject clotd "0.1.0-SNAPSHOT"
+(defproject clotd "0.1.0"
   :description "A QOTD server"
   :url "https://github.com/bfontaine/clotd"
-  :main "clotd.core"
+  :main clotd.core
+  :aot [clotd.core]
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure       "1.5.1"]

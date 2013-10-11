@@ -3,6 +3,7 @@
 *.swo
 *.jar
 *.class
+*.fortune
 /target
 /classes
 /checkouts
