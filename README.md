@@ -1,6 +1,8 @@
 # clotd
 
-A QOTD server.
+A [QOTD][rfc] server.
+
+[rfc]: http://tools.ietf.org/html/rfc865
 
 ## Building
 
@@ -12,7 +14,8 @@ lein uberjar
 
 ## Usage
 
-You need to run the server as root, since the QOTD port is below 1024 (17).
+You need to run the server as root if you want to use the default port,
+because it’s below 1024 (17).
 
 ```
 [sudo] java -jar <standalone.jar> <file.fortune> [<port>]
